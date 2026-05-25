@@ -67,4 +67,4 @@ These labels serve as MeSH-style diagnostic guidance for the report optimization
 
 ## Acknowledgment
 Our project references the codes in the following repos. Thanks for their works and sharing.
-- SWIFT
+- [SWIFT](https://github.com/modelscope/ms-swift)
