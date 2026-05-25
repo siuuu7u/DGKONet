@@ -3,8 +3,8 @@
 ## Prerequisites
 The following packages are required to run the scripts:
 
-- Python >= 3.8
-- PyTorch >= 1.6
+- Python >= 3.10
+- PyTorch >= 2.1
 - Torchvision
 - Sentence-Transformers
 - FAISS-GPU
