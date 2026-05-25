@@ -19,9 +19,10 @@ We use two datasets (IU X-Ray and MIMIC-CXR) in our project.
 
 - For IU X-Ray, you can download the dataset from [here](https://openi.nlm.nih.gov/faq).
 - For MIMIC-CXR, you can download the dataset from [here](https://physionet.org/content/mimic-cxr/2.0.0/).
-Our experiments on IU X-Ray were done on a machine with 1x3090 GPU.
 
-Our experiments on MIMIC-CXR were done on a machine with 1x3090 GPU.
+Our experiments on IU X-Ray were done on a machine with 1x4090 GPU.
+
+Our experiments on MIMIC-CXR were done on a machine with 1x4090 GPU.
 
 ## Fine-tuning
 We fine-tune the vision-language model (Qwen2-VL) using the **SWIFT** framework developed by ModelScope.
