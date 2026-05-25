@@ -17,9 +17,8 @@ The following packages are required to run the scripts:
 ## Datasets
 We use two datasets (IU X-Ray and MIMIC-CXR) in our project.
 
-- For IU X-Ray, you can download the dataset from [official website](https://iuhealth.org).
-- For MIMIC-CXR, you can download the dataset from [PhysioNet](https://physionet.org/content/mimic-cxr/2.0.0/).
-
+- For IU X-Ray, you can download the dataset from [here](https://openi.nlm.nih.gov/faq).
+- For MIMIC-CXR, you can download the dataset from [here](https://physionet.org/content/mimic-cxr/2.0.0/).
 Our experiments on IU X-Ray were done on a machine with 1x3090 GPU.
 
 Our experiments on MIMIC-CXR were done on a machine with 1x3090 GPU.
@@ -62,7 +61,7 @@ Optimize the initial reports using retrieved references and diagnostic labels.
 Large language models (via DashScope API) refine expressions, standardize terminology, and emphasize key medical labels.
 
 ## Pseudo Label Generation
-You can generate pseudo labels for each dataset by leveraging the automatic labeler CheXBert.
+You can generate pseudo labels for each dataset by leveraging the automatic labeler [ChexBert](https://github.com/stanfordmlgroup/CheXbert).
 
 These labels serve as MeSH-style diagnostic guidance for the report optimization stage.
 
